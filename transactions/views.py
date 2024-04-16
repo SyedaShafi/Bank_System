@@ -121,7 +121,7 @@ class DepositMoneyView(TransactionCreateMixin):
         )
 
         # sending mail
-        send_transaction_email(self.request.user, amount, "Deposite Message", "transactions/deposite_email.html")
+        send_transaction_email(self.request.user, amount, "Deposite Message", "transactions/deposite_mail.html")
 
         return super().form_valid(form)
 
