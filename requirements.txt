@@ -1,7 +1,9 @@
 asgiref
+Brotli
 certifi
 crispy-bootstrap5
 distlib
+dj-database-url
 Django
 django-crispy-forms
 django-email
@@ -11,7 +13,10 @@ pillow
 pipenv
 platformdirs
 psycopg2
+psycopg2-binary
 setuptools
 sqlparse
+typing_extensions
 tzdata
 virtualenv
+whitenoise
